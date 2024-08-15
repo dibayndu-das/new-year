@@ -37,3 +37,25 @@ header{
     font-weight: 400;
 }
 
+
+/* Second Bannner Styles Start */
+
+.second-banner-container{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.second-banner-title h1{
+    color: red;
+    font-size: 65px;
+    margin-bottom: 25px;
+}
+.second-banner-description p{
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.second-banner-description h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
