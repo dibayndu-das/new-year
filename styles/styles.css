@@ -93,3 +93,63 @@ header{
     margin-bottom: 5px;
     margin-top: 5px;
 }
+
+/* forth-banner-styles start */
+
+.forth-banner-container{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(180deg, #ffdddd 0%, rgba(221, 32, 32, 0) 100%);
+    border-radius: 8px;
+}
+.forth-banner-content{
+    padding: 50px 50px 50px 
+}
+.forth-banner-content p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.forth-banner-content strong{
+    color: red;
+}
+.forth-banner-content button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* <!-- Fifth Banner Styles Start --> */
+
+.fifth-banner-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.fifth-banner-description {
+    max-width: 400px;
+}
+.fifth-banner-img img{
+    max-width: 250px;
+    border-radius: 50%;
+    padding: 15px;
+    border: 10px solid red;
+ }
+ .fifth-banner-tittle{
+    color: red;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .fifth-banner-description h2{
+    font-size: 35px;
+    font-weight: 800;
+ }
+.fifth-banner-last-part h2{
+    color: red;
+}
+.fifth-banner-last-part img{
+    width:100px;
+}
