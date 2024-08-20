@@ -123,8 +123,8 @@ header{
 
 .fifth-banner-container{
     display: flex;
-    justify-content: space-around;
-    gap: 100px;
+    justify-content: center;
+    gap: 50px;
     margin-top: 70px;
     margin-bottom: 50px;
 }
@@ -152,4 +152,47 @@ header{
 }
 .fifth-banner-last-part img{
     width:100px;
+}
+
+/* Sixth Banner Styles Start */
+
+/* .sixth-banner-container{
+    
+} */
+/* .sixth-banner-container{
+    padding: 15px 35px 15px;
+} */
+
+.sixth-banner-container span{
+    color: red;
+}
+.sixth-banner-description {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.sixth-banner-description h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.sixth-banner-description h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sixth-banner-description p{
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.6);
+    padding: 10px 180px 10px;
+}
+.sixth-banner-img{
+    display: flex;
+    justify-content: center;
 }
