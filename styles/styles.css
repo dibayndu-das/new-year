@@ -29,7 +29,7 @@ header{
     background-repeat: no-repeat;
     min-height: 100vh;
     width: 100%;
-    background-size: cover;
+    background-size:100%;
   }
 .header-content{
     text-align: center;
@@ -85,6 +85,7 @@ header{
     align-items: center;
     background-image: url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
 }
 .third-banner-description{
@@ -104,6 +105,7 @@ header{
     font-size: 20px;
     font-weight: 500;
     background: linear-gradient(180deg, #ffdddd 0%, rgba(221, 32, 32, 0) 100%);
+    background-size: 100%;
     border-radius: 8px;
 }
 .forth-banner-content{
@@ -158,13 +160,6 @@ header{
 
 /* Sixth Banner Styles Start */
 
-/* .sixth-banner-container{
-    
-} */
-/* .sixth-banner-container{
-    padding: 15px 35px 15px;
-} */
-
 .sixth-banner-container span{
     color: red;
 }
@@ -209,4 +204,38 @@ header{
 .sixth-banner-img2{
     max-width: 250px;
     padding: 25px 126px 294px
+}
+
+/* seven-banner-styles-start */
+
+.seventh-banner-container{
+    margin-top: 50px;
+    text-align: center;
+}
+.seven-banner-tittle{
+    color: red;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.seven-banner-description h2{
+    font-weight: 800;
+    margin-top: 5px;
+}
+.seven-banner-description p{
+    margin-bottom: 40px;
+}
+.seven-banner-img-container{
+    width: 100%;
+}
+.seven-banner-img-container img{
+    width: 33%;
+}
+.first-container{
+    display: flex;
+    gap: 5px;
+}
+.second-container{
+    display: flex;
+    gap: 5px;
+    margin-top:5px ;
 }
