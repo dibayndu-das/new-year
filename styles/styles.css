@@ -33,17 +33,19 @@ header{
   }
 .header-content{
     text-align: center;
-    color: rgb(255, 187, 0);
+    color:rgb(255, 255, 255);
     padding: 90px 50px 50px;
 }
 
 .header-content h1,h3 {
     margin-top: 5px;
     margin-bottom: 5px;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
 }
 .header-content h1{
     font-size: 50px;
     font-weight: 700;
+    text-shadow: 2px 2px 2px red;
 }
 .header-content h3{
     font-weight: 400;
@@ -194,5 +196,17 @@ header{
 }
 .sixth-banner-img{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background: url(../resources/Rectangle\ 2.png), url(../resources/Rectangle\ 1.png);
+    background-position: left bottom, top right;
+    background-repeat: no-repeat;
+}
+.sixth-banner-img1{
+    width: 50%;
+    padding: 60px 0px 114px;
+    margin-right: -471px;
+}
+.sixth-banner-img2{
+    max-width: 250px;
+    padding: 25px 126px 294px
 }
